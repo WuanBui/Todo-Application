@@ -20,6 +20,9 @@ class Todo extends Component
 
     public $editedTodo;
 
+
+
+
     public $edit;
     public function boot(TodoRepo $repo)
     {
@@ -33,23 +36,36 @@ class Todo extends Component
         $this->todo = " ";
     }
 
-    public function editTodo($todoID){
+    public function editTodo($todoID)
+    {
         $this->edit = $todoID;
         $this->editedTodo = $this->repo->getTodo($todoID)->todo;
     }
 
-    public function updateTodo($todoID){
-        $validated = $this -> validateOnly('editedTodo');
-        $this -> repo -> update ($todoID, $validated["editedTodo"]);
+    public function updateTodo($todoID)
+    {
+        $validated = $this->validateOnly('editedTodo');
+        $this->repo->update($todoID, $validated["editedTodo"]);
         $this->cancelEdit();
     }
 
-    public function cancelEdit(){
-        $this -> edit = "";
+    public function cancelEdit()
+    {
+        $this->edit = "";
     }
+
+    public function deleteTodo($todoID)
+    {
+        $this->repo->delete($todoID);
+    }
+
+    public function markCompleted($todoID){
+        return $this->repo->completed($todoID);
+    }
+
     public function render()
     {
-        $todos = $this -> repo ->fetchAll();
+        $todos = $this->repo->fetchAll();
         return view('livewire.todo', compact('todos'));
     }
 }

@@ -23,4 +23,13 @@ class TodoRepo
         $todo = $this->getTodo($todoID);
         return $todo -> update(["todo" => $editedTodo]);
     }
+
+    public function completed($todoID){
+        $todo=$this->getTodo($todoID);
+        return($todo -> is_completed) ? $todo->update(['is_completed' => false]) : $todo->update(['is_completed' => true]);
+    }
+
+    public function delete($todoID){
+        return $this -> getTodo($todoID) -> delete();
+    }
 }

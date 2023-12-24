@@ -13,13 +13,14 @@
 
     <div class="flex mt-5 py-4 justify-center justify-between">
         <div>
-            <input id="green-checkbox" type="checkbox" class="w-4 h-4 text-green-600 bg-gray-100">
+            <input id="green-checkbox" wire:click="markCompleted({{$todo->id}})" @if($todo ->is_completed)  checked @endif type="checkbox"
+                class="w-4 h-4 text-green-600 bg-gray-100">
         </div>
         <div>
             @if($edit == $todo -> id)
             <x-text-input wire:model="editedTodo" class="w-full mr-2" />
             @else
-            {{$todo->todo}}
+            <span @if($todo -> is_completed) class='text-green-600' @endif > {{$todo->todo}} </span>
             @endif
 
         </div>
@@ -38,7 +39,7 @@
                 Edit
             </x-secondary-button>
 
-            <x-danger-button>
+            <x-danger-button wire:click="deleteTodo({{ $todo->id }})">
                 Delete
             </x-danger-button>
             @endif
