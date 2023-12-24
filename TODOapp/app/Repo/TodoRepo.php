@@ -12,6 +12,7 @@ class TodoRepo
     }
 
     public function fetchAll(){
-        
+        $todos = auth() -> user()->todo()->latest()->paginate(10);
+        return $todos;
     }
 }

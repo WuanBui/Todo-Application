@@ -27,6 +27,7 @@ class Todo extends Component
     }
     public function render()
     {
-        return view('livewire.todo');
+        $todos = $this -> repo ->fetchAll();
+        return view('livewire.todo', compact('todos'));
     }
 }
