@@ -26,17 +26,16 @@ Dev features:
 Demo video:
 https://drive.google.com/file/d/1hxIjx6mQGm-kOaoAYC50zYMaXJ_6wdZP/view?usp=sharing
 
-
-Installation
-Clone this repository
-    git clone (https://github.com/WuanBui/Todo-Application-with-Authentication.git)
-Install dependencies
-    composer install
-    npm install
-Database migrate and seed (Check your database config in .env and config/database.php before processing)
-    php artisan migrate --seed
-Run Laravel application
-    php artisan serve
-Run Vite (for Tailwind CSS)
-    npm run dev
+Installation:
+- Clone this repository:
+    + git clone (https://github.com/WuanBui/Todo-Application-with-Authentication.git)
+- Install dependencies:
+    + composer install
+    + npm install
+- Database migrate and seed (Check your database config in .env and config/database.php before processing)
+    + php artisan migrate --seed
+- Run Laravel application
+    + php artisan serve
+- Run Vite (for Tailwind CSS)
+    + npm run dev
 
