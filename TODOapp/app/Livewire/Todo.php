@@ -6,6 +6,7 @@ use App\Repo\TodoRepo;
 use Livewire\Component;
 use Livewire\Attributes\Rule;
 use Livewire\WithPagination;
+use App\Models\Category;
 
 class Todo extends Component
 {
@@ -36,6 +37,7 @@ class Todo extends Component
     public function boot(TodoRepo $repo)
     {
         $this->repo = $repo;
+        $this->categories = Category::all();
     }
 
     public function addTodo()
