@@ -1,10 +1,12 @@
 <div>
-    <div class="flex justify-center">
-        <x-input-error :$messages="$errors->get('todo')" class="mt-2" />
-    </div>
-
-    <form class="flex" method="POST" wire:submit.prevent="addTodo">
+    <form class="flex mb-3" method="POST" wire:submit.prevent='addTodo'>
+        <x-text-input wire:model='search' placeholder='Search' class="w-full mr-2" />
+    </form>
+    <br>
+    <form class="flex mb-3" method="POST" wire:submit.prevent='addTodo'>
         <x-text-input wire:model='todo' class="w-full mr-2" />
+
+    
 
         <x-primary-button> Add </x-primary-button>
     </form>
@@ -12,15 +14,18 @@
     @forelse($todos as $todo)
 
     <div class="flex mt-5 py-4 justify-center justify-between">
-        <div>
-            <input id="green-checkbox" wire:click="markCompleted({{$todo->id}})" @if($todo ->is_completed)  checked @endif type="checkbox"
-                class="w-4 h-4 text-green-600 bg-gray-100">
+        <div class="flex items-center w-full ">
+            <input id="green-checkbox" wire:click="markCompleted({{$todo->id}})" @if($todo ->is_completed) checked
+            @endif type="checkbox"
+            class="w-4 h-4 text-green-600 bg-gray-100">
         </div>
         <div>
             @if($edit == $todo -> id)
             <x-text-input wire:model="editedTodo" class="w-full mr-2" />
             @else
             <span @if($todo -> is_completed) class='text-green-600' @endif > {{$todo->todo}} </span>
+            <br>
+            <span @if ($todo->is_completed) @class('text-green-600 line-through text-opacity-50') @endif >Category: {{ $todo->category ? $todo->category->name : 'Uncategorized' }}</span>
             @endif
 
         </div>

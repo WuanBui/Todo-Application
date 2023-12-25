@@ -13,8 +13,13 @@ return new class extends Migration
     {
         Schema::create('todos', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->reference('id')->on('users')->onDelete('cascade');
+            $table->foreignId('category_id') -> nullable();
+            $table->foreignId('category_id')
+                ->reference('id')
+                ->on('categories')
+                ->constrained()
+                ->nullOnDelete();
             $table->string('todo');
             $table->boolean('is_completed')->default(false);
             $table->timestamps();

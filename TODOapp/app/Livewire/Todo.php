@@ -18,12 +18,21 @@ class Todo extends Component
     public $todo = "";
     #[Rule("required|min:3")]
 
-    public $editedTodo;
-
-
-
 
     public $edit;
+    #[Rule('required|min:3')]
+
+
+    public $editedTodo;
+
+    public $categories;
+
+    public $search = "";
+
+
+
+
+ 
     public function boot(TodoRepo $repo)
     {
         $this->repo = $repo;
@@ -63,9 +72,13 @@ class Todo extends Component
         return $this->repo->completed($todoID);
     }
 
+    public function updatingSearch(){
+        $this->resetPage();
+    }
+
     public function render()
     {
-        $todos = $this->repo->fetchAll();
+        $todos = $this->repo->search($this->search);
         return view('livewire.todo', compact('todos'));
     }
 }
