@@ -27,9 +27,9 @@ class TodoRepo
             $query->where('todo', 'like', '%' . $this->search . '%');
         }
 
-        $todo = $query->paginate(3);
+        $todos = $query->paginate(3);
 
-        return $todo;
+        return $todos;
     }
 
     public function search($search)
