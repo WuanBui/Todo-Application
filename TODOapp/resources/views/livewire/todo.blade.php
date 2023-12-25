@@ -6,7 +6,7 @@
     <form class="flex mb-3" method="POST" wire:submit.prevent='addTodo'> 
         <x-text-input wire:model='todo' class="w-full mr-2"/>
         
-        <select wire:model="category_id" class="dark:bg-gray-800 dark:border-gray-700 dark:text-white light:bg-gray-200 light:border-gray-300 light:text-black">
+        <select wire:model="category_id" class="dark:bg-gray-800 dark:border-gray-700 dark:text-black light:bg-gray-200 light:border-gray-300 light:text-black">
             <option value="">Select Category</option>
             @foreach($categories as $category)
                 <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -28,7 +28,7 @@
                     @else
                         <span @if ($todo->is_completed) @class('text-green-600 line-through text-opacity-50') @endif>{{ $todo->todo }}</span>
                         <br>
-                        <span @if ($todo->is_completed) @class('text-green-600 line-through text-opacity-50') @endif >Category: {{ $todo->category ? $todo->category->name : 'Uncategorized' }}</span>
+                        <span @if ($todo->is_completed) @class('text-green-600 line-through text-opacity-50') @endif >Category: {{ $todo->category ? $todo->category->name : $category -> name }} </span>
                     @endif
                 </div>
             </div>

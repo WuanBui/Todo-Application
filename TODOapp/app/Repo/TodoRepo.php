@@ -54,6 +54,7 @@ class TodoRepo
         return ($todo->is_completed) ? $todo->update(['is_completed' => false]) : $todo->update(['is_completed' => true]);
     }
 
+
     public function delete($todoID)
     {
         return $this->getTodo($todoID)->delete();

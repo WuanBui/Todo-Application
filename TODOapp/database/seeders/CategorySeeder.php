@@ -10,13 +10,13 @@ class CategorySeeder extends Seeder
 {
     public $categories = [
         [
-            'id' => 1,
+            'id' => 2,
             'user_id' => 1,
             'name' => 'School',
             'description' => '',
         ],
         [
-            'id' => 2,
+            'id' => 1,
             'user_id' => 1,
             'name' => 'Home',
             'description' => '',
