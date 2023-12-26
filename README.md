@@ -67,7 +67,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 ##### Users can add tasks:
 
 <p align="center">
-  <img src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-10-00.mp4">
+  <video src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-10-00.mp4">
 </p>
 
 ##### Edit:
