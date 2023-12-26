@@ -1,6 +1,10 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# A simple TODO list app built with Laravel Livewire.
+## Project Information:
+- Final exam for Advanced Web Development subject at VNUK Institute for Research and Executive Education
+- Student: Bùi Minh Quân
+- Student ID: 21020005
+- Lecturer: Nguyễn Hữu Quyền
 
 ## DEMO
 
