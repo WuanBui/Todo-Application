@@ -4,8 +4,7 @@
 
 ## DEMO
 
-[<video src="Laravel%20-%20Google%20Chrome%202023-12-26%2006-46-13.mp4" controls title="Title"></video>
-](https://youtu.be/-DKK26qnymQ)
+(https://youtu.be/-DKK26qnymQ)
 
 ## Tech
 
@@ -29,7 +28,7 @@ Scramble là trình tạo tài liệu OpenAPI (Swagger) cho Laravel. Nó tự đ
 
 <p align="center">
 
-[<video src="Laravel%20-%20API%20Docs%20-%20Google%20Chrome%202023-12-26%2007-00-20.mp4" controls title="Title"></video>](https://youtu.be/CJ5p4eibqzg)
+(https://youtu.be/CJ5p4eibqzg)
 
 </p>
 
@@ -41,7 +40,7 @@ Laravel Telescope makes a wonderful companion to your local Laravel development 
 
 <p align="center">
   
-  [<video src="Requests%20-%20Telescope%20-%20Google%20Chrome%202023-12-26%2007-04-01.mp4" controls title="Title"></video>](https://youtu.be/8B1Tx4Unjyc)
+(https://youtu.be/8B1Tx4Unjyc)
 
 </p>
 
@@ -51,7 +50,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
- ![Alt text](Capture.JPG)
+![Alt text](Capture.JPG)
 
 </p>
 
@@ -61,27 +60,27 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center"
 
-  [<video src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-08-07.mp4" controls title="Title"></video>](https://youtu.be/MQ33vvgpltE)
+(https://youtu.be/MQ33vvgpltE)
 
 </p>
 
 ##### Users can add tasks:
 
 <p align="center">
-  [<video src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-10-00.mp4">](https://youtu.be/wmvVXZPw010)
+(https://youtu.be/wmvVXZPw010)
 </p>
 
 ##### Edit:
 
 <p align="center">
-  [<video src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-10-58.mp4" controls title="Title"></video>](https://youtu.be/W57b6FmtJWk)
+ (https://youtu.be/W57b6FmtJWk)
 </p>
 
 ##### Search & Delete:
 
 <p align="center">
 
-  [<img src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-11-36.mp4" controls title="Title"></img>](https://youtu.be/YO0Gj7VBJls)
+(https://youtu.be/YO0Gj7VBJls)
 
 </p>
 
@@ -107,5 +106,3 @@ Run migrations and start the server:
 $ php artisan migrate
 $ php artisan serve
 ```
-
-
