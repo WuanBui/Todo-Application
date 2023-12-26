@@ -28,7 +28,7 @@ Scramble là trình tạo tài liệu OpenAPI (Swagger) cho Laravel. Nó tự đ
 
 <p align="center">
 
-    (https://youtu.be/CJ5p4eibqzg)
+(https://youtu.be/CJ5p4eibqzg)
 
 </p>
 
@@ -40,7 +40,7 @@ Laravel Telescope makes a wonderful companion to your local Laravel development 
 
 <p align="center">
   
-    (https://youtu.be/8B1Tx4Unjyc)
+(https://youtu.be/8B1Tx4Unjyc)
 
 </p>
 
@@ -60,7 +60,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center"
 
-    (https://youtu.be/MQ33vvgpltE)
+(https://youtu.be/MQ33vvgpltE)
 
 </p>
 
@@ -68,7 +68,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
-    (https://youtu.be/wmvVXZPw010)
+(https://youtu.be/wmvVXZPw010)
 
 </p>
 
@@ -76,7 +76,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
-    (https://youtu.be/W57b6FmtJWk)
+(https://youtu.be/W57b6FmtJWk)
 
 </p>
 
@@ -84,7 +84,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
-    (https://youtu.be/YO0Gj7VBJls)
+(https://youtu.be/YO0Gj7VBJls)
 
 </p>
 
