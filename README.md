@@ -49,7 +49,9 @@ Laravel Telescope makes a wonderful companion to your local Laravel development 
 Laravel Pulse delivers at-a-glance insights into your application's performance and usage. With Pulse, you can track down bottlenecks like slow jobs and endpoints, find your most active users, and more.
 
 <p align="center">
+
  ![Alt text](Capture.JPG)
+ 
 </p>
 
 #### Task Creation
