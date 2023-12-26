@@ -80,8 +80,8 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
-  <video src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-11-36.mp4" controls title="Title"></video>
-  
+  <video src="Laravel%20-%20Google%20Chrome%202023-12-26%2007-11-36.mp4" controls title="Title">zxc</video>
+
 </p>
 
 ## How to run the application
