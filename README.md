@@ -32,7 +32,8 @@ Scramble là trình tạo tài liệu OpenAPI (Swagger) cho Laravel. Nó tự đ
 
 <p align="center">
 
-(https://youtu.be/CJ5p4eibqzg)
+![docapi](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/93997b08-b7c3-4b3d-b930-7c1f5d1487c4)
+
 
 </p>
 
@@ -44,7 +45,8 @@ Laravel Telescope makes a wonderful companion to your local Laravel development 
 
 <p align="center">
   
-(https://youtu.be/8B1Tx4Unjyc)
+![telescope](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/a2f1622b-4446-481d-a4e3-52647af74abe)
+
 
 </p>
 
@@ -63,8 +65,13 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 ##### Login and Register:
 
 <p align="center"
+  
+![Login](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/bd543501-07c5-4ae3-b5bd-2349bf7c8de4)
 
-(https://youtu.be/MQ33vvgpltE)
+&
+
+![Register](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/057f75a5-74f0-4da9-94d9-69b2661cb088)
+
 
 </p>
 
@@ -72,7 +79,7 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
-(https://youtu.be/wmvVXZPw010)
+![Addtask](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/743ab2d1-5b82-4a4b-80e6-426b6a33840e)
 
 </p>
 
@@ -80,15 +87,17 @@ Laravel Pulse delivers at-a-glance insights into your application's performance 
 
 <p align="center">
 
-(https://youtu.be/W57b6FmtJWk)
+![edit](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/4b8d11a4-2883-4616-b1b3-9e0cf5a226a1)
+
 
 </p>
 
-##### Search & Delete:
+##### Delete:
 
 <p align="center">
 
-(https://youtu.be/YO0Gj7VBJls)
+![delete](https://github.com/WuanBui/Todo-Application-with-Authentication/assets/118819560/77a488b3-f7a6-4939-8970-06ffd90b6811)
+
 
 </p>
 
